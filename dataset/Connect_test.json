@@ -1,0 +1,35 @@
+{
+	"name": "Connect_test",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "Azure_SQL",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "ID",
+				"type": "decimal",
+				"precision": 15,
+				"scale": 0
+			},
+			{
+				"name": "NAME",
+				"type": "varchar"
+			},
+			{
+				"name": "DESCRIP",
+				"type": "varchar"
+			},
+			{
+				"name": "ROWID",
+				"type": "uniqueidentifier"
+			}
+		],
+		"typeProperties": {
+			"schema": "IQMS",
+			"table": "PARTNER_TYPE"
+		}
+	}
+}
