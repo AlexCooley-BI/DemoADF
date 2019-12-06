@@ -6,11 +6,7 @@
 		"type": "AzureSqlDatabase",
 		"typeProperties": {
 			"connectionString": "integrated security=False;encrypt=True;connection timeout=30;data source=iqms-server.database.windows.net;initial catalog=That_Test_Server;user id=IQMSAdmin",
- test_branch
-			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkpCREVWXzExM2IzZmE5LWM0NWUtNDE4MC04NTRlLThkNTU1YWEwMzYwYyINCn0="
-=======
 			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkpCREVWXzBhNWRlMjIyLTdlMGUtNDllYy1iZWZhLWM3NWI5NGE1OWNjNSINCn0="
- master
 		}
 	}
 }
